@@ -1,6 +1,6 @@
 def degeri_bol(BOL, KAC=3):
     if type(BOL) == list:
-        raise TypeError('Liste kullanılamaz!')
+        pass
 
     else:
         BOL = str(BOL)
