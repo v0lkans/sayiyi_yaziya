@@ -1,7 +1,7 @@
 def degeri_bol(BOL, KAC=3):
     if type(BOL) == list:
+        # Listeyi str değerine çevirmemesi için
         pass
-
     else:
         BOL = str(BOL)
 
@@ -25,6 +25,3 @@ def degeri_bol(BOL, KAC=3):
             del bolunmus_deger[0]
 
     return bolunmus_deger
-
-
-print(degeri_bol([123, 456, 789], 3))
